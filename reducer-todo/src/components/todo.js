@@ -1,12 +1,12 @@
 import React, { useState, useReducer } from 'react';
-import { initialState, reducer } from '../reducers/reducerApp';
-import TFormList from './TFormList'
+import { initialState, reducer } from '../reducer/reducer';
+import TodoList from './todoList'
 
 const Todo = () => {
 
   return (
     <div>
-      <TFormList />
+      <TodoList />
     </div>
   )
 }
